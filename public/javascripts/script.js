@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (sessionStorage.getItem("listaHojas")) {
     listaHojas = JSON.parse(sessionStorage.getItem("listaHojas"));
   } else {
-    sessionStorage.setItem("hojas", JSON.stringify(hojas));
+    sessionStorage.setItem("listaHojas", JSON.stringify(listaHojas));
   }
 
   let enviar = document.getElementById("enviar");
